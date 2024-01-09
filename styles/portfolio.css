@@ -1,31 +1,52 @@
 /* common shared style */
-body{
-    
-    font-family: 'Open Sans', sans-serif;
-}
-/* nav reletaed style */
+/* body{ */
 
-nav{
+font-family: 'Open Sans',
+sans-serif;
+}
+
+/* nav reletaed style */
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
-.nav-title{color: #181818;
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+
+}
+
+.nav-title {
+    color: #181818;
     font-size: 45px;
     font-weight: 800;
 }
-.orange{color:#FD6E0A}
 
-nav>ul{display: flex;}
-nav li{list-style: none;
-margin-right: 50px;}
-nav a{text-decoration: none;
-    color: #474747;
-    font-style: normal;
-    font-family: 'Open Sans', sans-serif;
+.orange {
+    color: #FD6E0A
 }
 
-.btn{
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
+.btn {
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
@@ -33,4 +54,138 @@ nav a{text-decoration: none;
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+}
+
+/* heder style */
+.header {
+    background-color: #FFF8F3;
+    background-image: url('../header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner .profilepic {
+    width: 584px;
+    height: 676px;
+}
+
+.bannertitle {
+    color: #181818;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.para {
+    color: #757575;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.bannerg {
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 5px;
+}
+
+/* main section style */
+.sectiontitle {
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+/* about section style */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    justify-content: center;
+    margin: 130px 0;
+
+}
+
+main {
+    width: 1140px;
+    height: 550px;
+    flex-shrink: 0;
+    margin: 0 auto;
+}
+
+.aboutinfocontainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutinfo {
+    margin: 10px;
+    text-align: center;
+}
+
+#whatido {
+    padding: 30px 150px;
+}
+
+/* skill related stylw */
+.skillscontainer {
+    display: flex;
+}
+
+.skilldescription {
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+}
+
+.skilltitle {
+    color: var(--Dark-01, #181818);
+
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.skill {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgb(17, 249, 5);
+    width: 267px;
+    height: 377px;
+    flex-shrink: 0;
+    padding: 30px;
+    gap: 30px;
 }
