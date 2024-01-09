@@ -172,7 +172,7 @@ main {
 .skilltitle {
     color: var(--Dark-01, #181818);
 
-    font-family: Open Sans;
+    
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -189,3 +189,43 @@ main {
     padding: 30px;
     gap: 30px;
 }
+
+main section {
+    margin-top: 130px;
+}
+
+.resume-column {
+    color: #474747;
+  
+    font-size: 30px;
+    
+    font-weight: 700;
+   
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+
+}
+.resumedescription, .resumeinfo{
+    color: #757575;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+.resumeitemtitle{
+    color: var(--Dark-02, #474747);
+font-family: Open Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom:15px ;
+}
+.resumeinfo{margin-bottom: 20px;
+margin-top: 0;}
+.downloadcv{text-align: center;
+padding-top: 50px;
+padding-bottom: 50px;}
